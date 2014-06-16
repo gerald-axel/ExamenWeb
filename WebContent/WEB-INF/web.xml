@@ -49,7 +49,7 @@
     <servlet-name>DoPostDiv</servlet-name>
     <url-pattern>/DoPostDiv</url-pattern>
   </servlet-mapping>
-   <servlet>
+  <servlet>
     <description></description>
     <display-name>DoPostSuma</display-name>
     <servlet-name>DoPostSuma</servlet-name>
@@ -78,5 +78,15 @@
   <servlet-mapping>
     <servlet-name>coca</servlet-name>
     <url-pattern>/coca</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DoPostSum</display-name>
+    <servlet-name>DoPostSum</servlet-name>
+    <servlet-class>DoPostSum</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DoPostSum</servlet-name>
+    <url-pattern>/DoPostSum</url-pattern>
   </servlet-mapping>
 </web-app>

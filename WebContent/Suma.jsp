@@ -25,7 +25,7 @@ function validation(){
 	return true;
 }
 </script>
-<form name="Suma" method="POST" action="DoPostSuma" onsubmit="return validation()">
+<form name="Suma" method="POST" action="DoPostSum" onsubmit="return validation()">
 <table>
 
 	<tr>
